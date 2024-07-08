@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
 import { Grid } from '../components/common/layouts/Grid/index';
 import { RankingGoodsItems } from '../components/common/GoodsItem/Ranking';
@@ -19,6 +19,8 @@ const Main = () => {
   const [selectedPersonCategory, setSelectedPersonCategory] = useState<string>('All');
   const [selectedOption, setSelectedOption] = useState<string>('받고 싶어한');
   const [showAllRankingItems, setShowAllRankingItems] = useState<boolean>(false);
+  const [filteredRankingItems, setFilteredRankingItems] = useState<RankingItem[]>([]);
+  const [itemsToShow, setItemsToShow] = useState<RankingItem[]>([]);
 
   const handleCategoryClick = (category: string) => {
     setSelectedPersonCategory(category);
@@ -245,11 +247,22 @@ const Main = () => {
     },
   ];
 
-  const filteredRankingItems = rankingItems
-    .filter((item) => item.category === selectedPersonCategory || selectedPersonCategory === 'All')
-    .filter((item) => item.option === selectedOption);
+  useEffect(() => {
+    const newFilteredRankingItems = rankingItems
+      .filter(
+        (item) => item.category === selectedPersonCategory || selectedPersonCategory === 'All',
+      )
+      .filter((item) => item.option === selectedOption);
 
-  const itemsToShow = showAllRankingItems ? filteredRankingItems : filteredRankingItems.slice(0, 6);
+    setFilteredRankingItems(newFilteredRankingItems);
+  }, [selectedPersonCategory, selectedOption, rankingItems]);
+
+  useEffect(() => {
+    const newItemsToShow = showAllRankingItems
+      ? filteredRankingItems
+      : filteredRankingItems.slice(0, 6);
+    setItemsToShow(newItemsToShow);
+  }, [showAllRankingItems, filteredRankingItems]);
 
   return (
     <MainContainer>
