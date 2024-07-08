@@ -15,6 +15,219 @@ type RankingItem = {
   option: string;
 };
 
+const rankingItems: RankingItem[] = [
+  {
+    rankingIndex: 1,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: 'All',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 2,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: 'All',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 3,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: 'All',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 4,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '여성이',
+    option: '많이 선물한',
+  },
+  {
+    rankingIndex: 5,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '여성이',
+    option: '많이 선물한',
+  },
+  {
+    rankingIndex: 6,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '여성이',
+    option: '위시로 받은',
+  },
+  {
+    rankingIndex: 7,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '여성이',
+    option: '위시로 받은',
+  },
+  {
+    rankingIndex: 8,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '여성이',
+    option: '위시로 받은',
+  },
+  {
+    rankingIndex: 9,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 10,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 11,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 12,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 13,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 14,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 15,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 16,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 17,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 18,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '받고 싶어한',
+  },
+  {
+    rankingIndex: 19,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '많이 선물한',
+  },
+  {
+    rankingIndex: 20,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '많이 선물한',
+  },
+  {
+    rankingIndex: 21,
+    subtitle: 'BBQ',
+    title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
+    imageSrc:
+      'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
+    amount: 29000,
+    category: '남성이',
+    option: '많이 선물한',
+  },
+];
+
 const Main = () => {
   const [selectedPersonCategory, setSelectedPersonCategory] = useState<string>('All');
   const [selectedOption, setSelectedOption] = useState<string>('받고 싶어한');
@@ -33,219 +246,6 @@ const Main = () => {
   const handleMoreClick = () => {
     setShowAllRankingItems((prev) => !prev);
   };
-
-  const rankingItems: RankingItem[] = [
-    {
-      rankingIndex: 1,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: 'All',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 2,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: 'All',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 3,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: 'All',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 4,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '여성이',
-      option: '많이 선물한',
-    },
-    {
-      rankingIndex: 5,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '여성이',
-      option: '많이 선물한',
-    },
-    {
-      rankingIndex: 6,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '여성이',
-      option: '위시로 받은',
-    },
-    {
-      rankingIndex: 7,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '여성이',
-      option: '위시로 받은',
-    },
-    {
-      rankingIndex: 8,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '여성이',
-      option: '위시로 받은',
-    },
-    {
-      rankingIndex: 9,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 10,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 11,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 12,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 13,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 14,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 15,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 16,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 17,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 18,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '받고 싶어한',
-    },
-    {
-      rankingIndex: 19,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '많이 선물한',
-    },
-    {
-      rankingIndex: 20,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '많이 선물한',
-    },
-    {
-      rankingIndex: 21,
-      subtitle: 'BBQ',
-      title: 'BBQ 양념치킨+크림치즈볼+콜라1.25L',
-      imageSrc:
-        'https://st.kakaocdn.net/product/gift/product/20231030175450_53e90ee9708f45ffa45b3f7b4bc01c7c.jpg',
-      amount: 29000,
-      category: '남성이',
-      option: '많이 선물한',
-    },
-  ];
 
   useEffect(() => {
     const newFilteredRankingItems = rankingItems
